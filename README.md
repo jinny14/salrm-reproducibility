@@ -143,3 +143,18 @@ may also be subject to the applicable model-provider terms.
 
 Author-generated summary tables, figures, manifests, and metadata may be reused
 for scholarly purposes with appropriate citation, unless otherwise indicated.
+
+### Score-level data
+
+The item-level score data are distributed as a compressed CSV file:
+
+- `data/scores.csv.zip`
+
+After downloading the repository, extract the archive before running analyses.
+
+#### PowerShell
+```powershell
+Expand-Archive `
+    -Path "data/scores.csv.zip" `
+    -DestinationPath "data" `
+    -Force
