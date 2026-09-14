@@ -1,0 +1,9 @@
+﻿Python: 3.11.15 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:12:53) [MSC v.1942 64 bit (AMD64)]
+Platform: Windows-10-10.0.26200-SP0
+numpy: 2.4.6
+pandas: 3.0.5
+scipy: 1.17.1
+statsmodels: 0.14.6
+torch: 2.13.0+cpu
+transformers: 5.15.1
+requests: 2.34.2

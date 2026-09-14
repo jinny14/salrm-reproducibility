@@ -1,0 +1,64 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Credentials and secrets
+.env
+.env.*
+*.key
+*.pem
+secrets/
+credentials/
+config.json
+config.local.json
+
+# Keep the sanitized public configuration
+!config/config.public.json
+
+# Restricted benchmark and raw-response data
+data/raw/
+data/benchmarks/
+data/private/
+raw_responses/
+responses/
+
+# Large files distributed through GitHub Release
+data/scores.csv
+*.zip
+
+# Temporary and generated files
+temp/
+tmp/
+cache/
+outputs/check/
+
+# Logs are excluded by default
+*.log
+
+# Keep the final diagnostic log if it is intentionally published
+!results/latent_diagnostic_lbfgs.log
+
+# Intermediate manuscripts and reports
+*.docx
+~$*.docx
+manuscripts/
+drafts/
+
+# Keep final supplementary PDF
+!supplement/*.pdf
+
+# Editor files
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini

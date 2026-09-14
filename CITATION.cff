@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the SALRM software package. After publication, please also cite the associated paper."
+title: "SALRM Reproducibility Package"
+type: software
+
+authors:
+  - family-names: "Kim"
+    given-names: "Jin"
+    affiliation: "Sangmyung University"
+
+abstract: >-
+  This repository provides the implementation, configuration, environment
+  records, integrity metadata, and analysis artifacts for the
+  Sensitivity-Aware Latent Reliability Model (SALRM), a framework for
+  evaluating large language models across multidimensional benchmarks while
+  accounting for item difficulty, intervention sensitivity, and estimation
+  uncertainty.
+
+keywords:
+  - large language models
+  - reliability assessment
+  - sensitivity analysis
+  - latent variable model
+  - uncertainty quantification
+  - reproducibility
+
+repository-code: "https://github.com/USERNAME/salrm-reproducibility"
+version: "1.0.0"
+date-released: "2026-09-14"
+license: MIT

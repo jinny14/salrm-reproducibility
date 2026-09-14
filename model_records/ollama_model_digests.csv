@@ -1,0 +1,3 @@
+﻿"name","model","digest","size","modified_at","format","family","parameter_size","quantization_level"
+"llama3.1:8b","llama3.1:8b","46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e","4920753328","2026-08-24T23:48:48.2512722+09:00","gguf","llama","8.0B","Q4_K_M"
+"qwen2.5:7b-instruct","qwen2.5:7b-instruct","845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e","4683087332","2026-08-23T18:46:46.7425082+09:00","gguf","qwen2","7.6B","Q4_K_M"

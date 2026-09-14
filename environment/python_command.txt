@@ -1,0 +1,8 @@
+﻿
+
+Name    : python.exe
+Source  : D:\conda\envs\salrm\python.exe
+Version : 3.11.15150.1013
+
+
+
