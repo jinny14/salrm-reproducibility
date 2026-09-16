@@ -94,14 +94,30 @@ Complete package versions are provided in:
 ## Data Availability
 
 Derived analysis data, statistical outputs, sampling records, response-file
-inventories, and cryptographic checksums are provided in this repository.
+inventories, and cryptographic checksums are provided in the `data/`
+directory of this repository.
 
-Original benchmark datasets are governed by their respective licenses and
-are not relicensed by the authors. Users should obtain the original datasets
-from their official sources.
+The processed item-level dataset, including the model outputs retained for
+scoring and analysis, is distributed as a compressed archive at
+`data/scores.csv.zip`. The SHA-256 checksums of both the compressed archive
+and the extracted CSV file are provided in `data/scores_checksums.csv` to
+support integrity verification.
 
-The raw model responses are [NOT PUBLICLY DISTRIBUTED / AVAILABLE IN RELEASE
-v1.0.0]. Select the applicable statement before publication.
+Aggregate evaluation results are provided in `data/metrics.csv`. Sampling
+information and response-file completeness records are provided in
+`data/sampling_manifest.json` and `data/response_inventory.csv`,
+respectively.
+
+The original provider-specific raw response files are not publicly
+distributed. Their completeness and integrity are documented through the
+response inventory and associated cryptographic checksum records included
+in this repository.
+
+Original benchmark datasets and benchmark-derived content remain subject to
+the licenses and terms of their respective owners and are not relicensed by
+the author. Users should obtain the original benchmark datasets from their
+official sources. The availability and reuse of model outputs are also
+subject to the applicable terms of the respective model providers.
 
 ## Code Availability
 
